@@ -18,7 +18,7 @@ func main() {
     for i := 0; i < in; i++ {
         fmt.Scanf("%d", &data[i])
 
-		// searching inside a map - inside map pair, is there any key that is data[i] ?
+		// searching inside a map - apakah di dalam map pair ada key berupa data[i] ?
         if _, ok := pair[data[i]]; !ok{
            pair[data[i]] = 1 
         } else {
